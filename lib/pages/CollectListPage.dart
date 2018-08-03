@@ -10,7 +10,7 @@ import 'package:wanAndroid/util/DataUtils.dart';
 import 'package:wanAndroid/widget/EndLine.dart';
 
 //收藏文章界面
-class CollectPage extends StatelessWidget{
+class CollectPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
@@ -21,7 +21,6 @@ class CollectPage extends StatelessWidget{
     );
   }
 }
-
 
 class CollectListPage extends StatefulWidget {
   CollectListPage();
@@ -63,7 +62,6 @@ class CollectListPageState extends State<CollectListPage> {
     _contraller.dispose();
     super.dispose();
   }
-
 
   @override
   Widget build(BuildContext context) {
@@ -226,7 +224,6 @@ class CollectListPageState extends State<CollectListPage> {
           title: itemData['title'], url: itemData['link']);
     }));
   }
-
 
   //取消收藏
   void _itemUnCollect(var itemData) {

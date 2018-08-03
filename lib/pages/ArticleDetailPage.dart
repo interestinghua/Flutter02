@@ -19,7 +19,6 @@ class ArticleDetailPage extends StatefulWidget {
 }
 
 class ArticleDetailPageState extends State<ArticleDetailPage> {
-
   bool isLoadind = true;
 
   final flutterWebViewPlugin = new FlutterWebviewPlugin();

@@ -50,7 +50,6 @@ class HomeListPageState extends State<HomeListPage> {
     super.dispose();
   }
 
-
   Future<Null> _pullToRefresh() async {
     curPage = 0;
     getBanner();

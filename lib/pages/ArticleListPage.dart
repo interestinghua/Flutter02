@@ -37,7 +37,6 @@ class ArticleListPageState extends State<ArticleListPage> {
   void initState() {
     super.initState();
 
-
     _getArticleList();
 
     _contraller.addListener(() {

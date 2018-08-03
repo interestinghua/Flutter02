@@ -30,7 +30,8 @@ class AboutUsPageState extends State<AboutUsPage> {
               title: const Text('关于项目'),
               subtitle: const Text(
                   '项目是自己在学习Flutter的时候写的demo,模仿WanAndroid客户端,实现了其大部分的功能效果(首页抽屉效果不习惯就直接搬出来了)嘿嘿``'),
-              trailing:  Icon(Icons.chevron_right, color: Theme.of(context).accentColor),
+              trailing: Icon(Icons.chevron_right,
+                  color: Theme.of(context).accentColor),
               onTap: () {
                 Navigator
                     .of(context)
@@ -44,7 +45,8 @@ class AboutUsPageState extends State<AboutUsPage> {
           new ListTile(
               title: const Text('关于我'),
               subtitle: const Text('一个Android程序猿,初学Flutter,博客地址是..'),
-              trailing:  Icon(Icons.chevron_right, color: Theme.of(context).accentColor),
+              trailing: Icon(Icons.chevron_right,
+                  color: Theme.of(context).accentColor),
               onTap: () {
                 Navigator
                     .of(context)

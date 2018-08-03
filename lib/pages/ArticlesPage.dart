@@ -3,14 +3,14 @@ import 'package:wanAndroid/pages/ArticleListPage.dart';
 import 'package:flutter/scheduler.dart' show timeDilation;
 
 class ArticlesPage extends StatefulWidget {
-
   var data;
 
   @override
   State<StatefulWidget> createState() {
     return new ArticlesPageState();
   }
-   ArticlesPage(this.data) ;
+
+  ArticlesPage(this.data);
 
 //  ArticlesPage(this.data);
 }
@@ -34,12 +34,11 @@ class ArticlesPageState extends State<ArticlesPage>
     _tabContro = new TabController(length: list.length, vsync: this);
   }
 
-
- @override
- void dispose() {
-   _tabContro.dispose();
-   super.dispose();
- }
+  @override
+  void dispose() {
+    _tabContro.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -69,5 +68,4 @@ class ArticlesPageState extends State<ArticlesPage>
               )),
         ));
   }
-
 }
